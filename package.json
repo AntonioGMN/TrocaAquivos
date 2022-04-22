@@ -1,0 +1,21 @@
+{
+  "name": "mudança-arquivos",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "init": "^0.1.2",
+    "json-2-csv": "^3.17.1",
+    "jsonfile": "^6.1.0",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3"
+  }
+}
